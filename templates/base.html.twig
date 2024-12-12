@@ -2,9 +2,12 @@
 <html>
 <head>
     <title>{% block title %}Mon site Symfony{% endblock %}</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="../assets/styles/acceuil.css">
 </head>
 <body>
+
+    {% include 'partials/nav.html.twig' %}
+
 <header>
     <h1>En-tête commune</h1>
 </header>
@@ -12,6 +15,7 @@
     {% block body %}{% endblock %}
 </main>
 <footer>
+    {% block footer %}{% endblock %}
     <p>Pied de page commun</p>
 </footer>
 </body>

@@ -4,14 +4,15 @@ namespace App\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
-use Symfony\Component\Routing\Attribute\Route;
+use Symfony\Component\Routing\Annotation\Route;
 
 class HomeController extends AbstractController
 {
-    #[Route('/', name: 'home')]
+    #[Route('/home', name: 'home')]
     public function index(): Response
     {
-        // Rend la vue index.html.twig
-        return $this->render('index.html.twig');
+        // Rendu du template situé dans templates/home/index.html.twig
+        return $this->render('home/index.html.twig');
     }
 }
+
