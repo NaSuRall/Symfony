@@ -1,0 +1,41 @@
+{% extends 'pageJeu.html.twig' %}
+
+
+{% block title %}page de telechargement{% endblock %}
+
+
+{% block body %}
+    <div id="titreImage">
+        <h1>Impossible NUNUNU</h1>
+    </div>
+    <div id="explication">
+        <p id="imageExplication"> <img src="../assets/images/imageExplication.jpg"></p>
+        <p>Cliquez sur le liens correspondant pour telecharger le jeu</p>
+        <p>Une fois le fichier telecharger, ouvrez le et cliquer sur le fichier .exe</p>
+        <p>Et voila, vous pouvez deja jouer</p>
+    </div>
+
+
+    <div id="listeVersion">
+        <h2>Telechargements</h2>
+        <ul id="lienTelechargement">
+            <h3>Liens</h3>
+            <a href="#"> </a>
+        </ul>
+
+        <ul id="nomVersion">
+            <h3>Version</h3>
+            <li>version 1.0.0</li>
+        </ul>
+
+        <ul id="nomSysteme">
+            <h3>Systeme d'exploitation</h3>
+            <li>windows</li>
+            <li>mac</li>
+            <li>linux</li>
+        </ul>
+
+    </div>
+
+
+{% endblock %}
