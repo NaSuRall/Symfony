@@ -1,0 +1,88 @@
+:root {
+    --color-blue: #3b82f6;
+    --color-background-block: #c3c3c3;
+    font-family: "Arial", sans-serif;
+}
+
+
+/* Nav CSS*/
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+nav .title a{
+    font-family: "Arial", sans-serif;
+    font-size: 1.9em;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav span {
+    color: var(--color-blue);
+}
+.onglets{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+.onglets a{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-family: "Arial", sans-serif;
+    transition: 0.5s ease all;
+}
+.onglets a:hover{
+    color: white;
+    background-color: var(--color-blue);
+    border-radius: 10px;
+}
+
+/* End Nav CSS*/
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.content-header{
+    width: 100%;
+    height: 500px;
+    background-color: var(--color-blue);
+    display: flex;
+    align-content: center;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.container-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 50px;
+}
+.bloc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 10px;
+    width: 500px;
+    height: 200px;
+    background-color: var(--color-background-block);
+}
+.bloc h2{
+    font-size: 2.2em;
+    color: var(--color-blue);
+}

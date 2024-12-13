@@ -3,10 +3,25 @@
 
 {% block title %}Page d'accueil{% endblock %}
 
-{% block body %}
-    <h1>Bienvenue sur la page d'accueil !</h1>
-{% endblock %}
+ {% block header %}
+     <div class="content-header">
+        <h1>Bienvenue sur Flowr ! </h1>
+         </div>
+     <div class="container-block">
+         <div class="bloc">
+             <h2>Gerer mes groupes</h2>
+         </div>
+         <div class="bloc">
+             <h2>Crée mon groupe</h2>
+         </div>
+         <div class="bloc">
+             <h2>Mon compte</h2>
+         </div>
+     </div>
+ {% endblock %}
 
-{% block footer %}
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, aliquid dolore magni omnis quidem quis repudiandae sed ullam? Aut eius eligendi excepturi ipsa labore magnam maxime natus nisi qui quis?</p>
+
+{% block body %}
+    <div class="container">
+    </div>
 {% endblock %}
