@@ -1,0 +1,14 @@
+.bo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 82vh;
+    width: 100%;
+    background-color: red;
+}
+#slt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
