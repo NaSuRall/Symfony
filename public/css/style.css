@@ -4,6 +4,12 @@
     font-family: "Arial", sans-serif;
 }
 
+.titre{
+    color: black;
+    font-size: 2.5em;
+    font-family: "Arial", sans-serif;
+
+}
 
 /* Nav CSS*/
 
@@ -85,13 +91,4 @@ header{
 .bloc h2{
     font-size: 2.2em;
     color: var(--color-blue);
-}
-
-.button{
-    width: 200px;
-    background-color: white;
-    height: 20px;
-}
-.text{
-    color: rgba(86, 153, 255, 0.62);
 }
